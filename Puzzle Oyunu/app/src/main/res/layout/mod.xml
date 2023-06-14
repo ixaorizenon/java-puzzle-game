@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@drawable/table_background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="55dp"
+        android:text="ZORLUK"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="110dp"
+        android:text="SEÇ"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:text="kolay"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#0f0"
+        android:textSize="30sp"
+        android:id="@+id/kolay"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:text="orta"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#FF9800"
+        android:id="@+id/orta"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:textSize="30sp"
+        android:text="zor"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#FF0000"
+        android:layout_margin="10dp"
+        android:id="@+id/zor"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
